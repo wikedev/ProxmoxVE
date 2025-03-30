@@ -5,7 +5,7 @@ source <(curl -s https://raw.githubusercontent.com/community-scripts/ProxmoxVE/m
 # License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
 # Source: https://www.postgresql.org/
 
-APP="PostgreSQL"
+APP="PostgreSQL=15+248"
 var_tags="database"
 var_cpu="1"
 var_ram="1024"
